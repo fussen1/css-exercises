@@ -17,8 +17,7 @@ p {
 }
 
 
-
-.confirm {
+.button.confirm {
   background: green;
   color: white;
   font-weight: bold;

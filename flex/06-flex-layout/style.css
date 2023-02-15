@@ -57,3 +57,8 @@ a {
   align-items: center;
   gap: 10px;
 }
+
+.footer {
+  height: 190px;
+  align-items: flex-end;
+}

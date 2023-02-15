@@ -28,8 +28,10 @@ input {
 
 /* Solution */
 
-body {
+
+.left-links, .right-links {
   display: flex;
+    
 }
 
 ul {
@@ -42,10 +44,9 @@ a {
 
 .header, .footer {
   display: flex;
+  justify-content: space-between;
   background-color: yellow;
-  flex-grow: 1;
+  font-size: x-small;
+  
 }
 
-.header {
-  justify-content: center;
-}

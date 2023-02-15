@@ -42,6 +42,8 @@ a {
 
 .header, .footer {
   display: flex;
+  background-color: yellow;
+  flex-grow: 1;
 }
 
 .header {

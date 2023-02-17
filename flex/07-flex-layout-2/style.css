@@ -36,3 +36,9 @@ body {
   align-items: center;
   padding-left: 16px;
 }
+
+.footer {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}

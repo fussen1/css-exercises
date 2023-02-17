@@ -46,8 +46,7 @@ body {
 
 .container {
   display: flex;
-  height: 550px;
-  
+   
 }
 
 .sidebar {

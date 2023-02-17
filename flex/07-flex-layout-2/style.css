@@ -41,4 +41,10 @@ body {
   display: flex;
   align-items: center;
   justify-content: center;
+  
+}
+
+.container {
+  display: flex;
+  height: 500px;
 }

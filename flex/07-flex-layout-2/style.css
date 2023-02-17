@@ -47,16 +47,30 @@ body {
 .container {
   display: flex;
   height: 500px;
+  
 }
 
 .sidebar {
   display: flex;
-  flex: 1;
-
+  width: 300px;
+  flex-shrink: 0;
 }
 
 .cards {
   display: flex;
-  flex-direction: row;
-  box-sizing: 25px;
+  justify-content: start;
+  align-items: center;
+  margin-left: 25px;
+  gap: 15px;
+  padding: 5px;
+  flex-wrap: wrap;
+}
+
+.card {
+  display: flex;
+  width: 250px;
+  height: 280px;
+  text-align: left;
+  padding: 10px;
+  
 }

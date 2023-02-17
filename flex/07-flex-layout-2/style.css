@@ -48,3 +48,15 @@ body {
   display: flex;
   height: 500px;
 }
+
+.sidebar {
+  display: flex;
+  flex: 1;
+
+}
+
+.cards {
+  display: flex;
+  flex-direction: row;
+  box-sizing: 25px;
+}
